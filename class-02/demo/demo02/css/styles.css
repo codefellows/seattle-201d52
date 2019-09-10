@@ -1,0 +1,24 @@
+h1{
+  text-align: center;
+  font-size:26px;
+  font-weight: bold;
+}
+
+body{
+  background-color: lightblue;
+}
+
+.imDifferent{
+  color: purple;
+}
+
+#list-3{
+  color: goldenrod;
+  font-size: 2em;
+}
+
+ul li{
+  list-style-type: square;
+  list-style-position: inside;
+}
+
