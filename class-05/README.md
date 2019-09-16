@@ -17,6 +17,15 @@ As a result of completing Lecture 5 of Code 201, students will:
 It's time to take a look at branching in Git. We'll also go over the commands and do some practice with Git branches together in our terminals.
 
 
+* New terminal commands:
+	* `git checkout -b <branch-name>`
+    * always checkout new branches from `master`
+	* `git checkout <branch-name>`
+	* `git push origin <branch-name>`
+	* `git pull origin master`
+    * always keep local master branch current with master branch on GitHub
+	* `git branch`  
+
 ## Code demo for today's lab
 
 Today's lab is a 'one-off' lab, in that it is not directly connected to your weekly project.
