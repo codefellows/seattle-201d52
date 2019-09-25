@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coffee Orders</title>
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <form id="coffeeForm">
+      <h2>Coffee Order</h2>
+      <fieldset>
+        <div>
+          <label>First Name</label>
+          <input type="text" name="name">
+        </div>
+
+        <div>
+          <label>Size</label>
+          <select name="size">
+            <option value="6">6 oz</option>
+            <option value="12">12 oz</option>
+            <option value="16">16 oz</option>
+            <option value="20">20 oz</option>
+            <option value="32">32 oz</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Milk</label>
+          <select name="milk">
+              <option value="regular">regular</option>
+              <option value="almond">almond</option>
+              <option value="coconut">coconut</option>
+              <option value="none">none</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Drink</label>
+          <select name="drinkType">
+            <option value="latte">Latte</option>
+            <option value="blackCoffee">Black Coffee</option>
+            <option value="coldBrew">Cold Brew</option>
+          </select>
+        </div>
+
+        <div>
+          <button type="submit">Submit Order</button>
+        </div>
+      </fieldset>
+    </form>
+
+    <section>
+      <h4>Previous Orders</h4>
+      <ul id="orders">
+
+      </ul>
+    </section>
+    <script src="js/app.js"></script>
+  </body>
+</html>
